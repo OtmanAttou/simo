@@ -1,0 +1,433 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-wrap: nowrap;
+    justify-content:space-around ; 
+    margin-top: 20px;
+
+    
+
+}
+header img{
+
+    margin-top: 20px;
+    margin-left: 3%;
+    
+
+} 
+header div{
+    margin-left: 40%;
+}
+
+header ul{
+    width: 500px;
+    font-size: 35px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+    
+}
+header li{
+    margin-left: 60px;
+    font-size: 30px
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.flix-items1{
+    display: flex;
+    width: 90%;
+    
+    justify-content: space-around;
+}
+.item1{
+    margin-left: 10%;
+    
+}
+span{
+    width: 1000px;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+p{
+    width: 90%;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"]{
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+}
+.input1{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.contunere{
+    width: 100%;
+    height: 900px;
+    margin-top: 8%;
+}
+.contunere-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("/images/bg-curve-desktop.svg");
+    background-repeat: repeat-x;
+    z-index: -100;
+    background-size: 2800px 1200px;
+    
+}
+.contunere-text img{
+    margin-top: 6%;
+}
+.text1{
+    display: block;
+    flex-basis: 60%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.flex1{
+    display: flex;
+    width: 24%;
+    justify-content: space-between;
+    color: rgb(6, 173, 78);
+}
+.flex1 img{
+    margin-top: 4%;
+    
+    
+
+}
+hr{
+    width: 24%;
+    margin-top: -2%;
+    margin-left: 0%;
+    background-color:rgb(27, 180, 65) ;
+        border: 1px solid rgb(27, 180, 65);
+
+        
+}
+.flex2{
+    width: 60%;
+    box-shadow: 0 0 10px gray;
+    padding: 40px;
+}
+.flex3{
+    display: flex;
+    
+}
+.flex3 div p{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: -7%;
+    
+}
+.flex3 div h1{
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.flex3  img{
+    border: 20px solid white;
+    border-radius: 80px;
+}
+.contunere2{
+    background-color:rgb(121, 91, 150);
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 1%;
+    justify-content: space-around;
+    align-content: space-around;
+    
+    color: white;
+
+}
+.contunere2-text1{
+    width: 46%;
+    margin-left: 10%;
+    height: 200px;
+    margin: auto 10%;
+    
+
+}
+.contunere2-text2{
+    height: 200px;
+    margin: 6% auto;
+}
+.contunere2-text2{
+    display: block;
+    
+    
+}
+.input2{
+    margin-top: 5%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    padding: 10px;
+    
+}
+.contunere3{
+    display: flex;
+    background-color: rgb(68, 55, 112);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+.flex-items1{
+    flex-basis: 30%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.flex-items1 div{
+    margin-top: 16px;
+    
+}
+.flex-items1 a{
+    margin-left: 30px;
+    color: white;
+}
+.flex-items2{
+    
+    flex-basis: 20%;
+    margin-top: 6%;
+}
+.flex-items3{
+    flex-basis: 20%;
+    margin-top: 6%;
+}
+.f-items1{
+    display: flex;
+    justify-content: space-between;
+}
+.f-items1 ul{
+    list-style: none;
+}
+.f-items1 li{
+    margin-top: 10px;
+}
+.f-items1 a{
+    color: white;
+}
+.flex-items3 a{
+    margin-left: 30px;
+    
+    
+}
+
+@media screen and (max-width:450px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0%; 
+        
+    }
+    header{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        margin-top: 2%;
+        justify-content: space-between;
+    }
+    header div{
+        width: 80%;
+        margin-left: -50%;
+        
+
+    }
+    header img{
+        width: 20%;
+
+    } 
+    header ul{
+        width: 60%;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    header li{
+        
+        flex-basis: 20%;
+        font-size: 16px;
+        margin-left: 20%;
+    }
+    .flix-items1{
+        display: flex;
+        width: 90%;
+        margin: -20% auto;
+        height: 700px;
+        flex-direction: column;
+
+    }
+    .item-2{
+        width: 90%;
+        margin: 0 auto;
+        order:1;
+        
+    }
+    .item-2 img{
+        width: 90%;
+        
+    }
+    input[type="text"]{
+        width: 260px;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    .input1{
+        width: 150px;
+        padding: 1px;
+        margin: 0 auto;
+    }
+    .item1{
+        order: 2;
+        width: 90%;
+        margin: 0 auto;
+    }
+    span{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    p{
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 22px;
+    }
+    .contunere-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 22%;
+        align-content: space-between;
+        
+        
+        
+    
+    }
+    .contunere-text img{
+        width: 90%;
+        margin: 0 auto;
+        order: 1;
+    }
+    .text1{
+        width: 80%;
+        margin: 0 auto;
+        order: 2;
+    }
+    .flex1{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-around;
+        
+    }
+    .flex1 img{
+        width: 18%;
+        margin-top: 8%;
+    }
+    hr{
+        width:80% ;
+        margin: 0 auto;
+        color: rgb(27, 180, 65);
+        background-color:rgb(27, 180, 65) ;
+        border: 1px solid rgb(27, 180, 65);
+        margin-top: -3%;
+        
+    }
+    .flex2{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        background-color: white;
+    }
+    .flex2 img{
+        width: 20%;
+    }
+    .flex3 img{
+        order: 1;
+        width: 70px;
+        border: 18px solid white ;
+        border-radius: 60px;
+        margin-left: -10%;
+
+
+    }
+    .flex3 div{
+        order: 2;
+        margin-left: -10%;
+        margin-top: -10%;
+        
+    }
+    .contunere2{
+        display: block;
+        align-content: space-between;
+        margin-top: 10%;
+        width: 90%;
+        height: 350px;
+        padding: 20px;
+
+    }
+    .contunere2-text1{
+        width: 90%;
+        
+    }
+    .contunere2-text1 p{
+        text-align: center;
+    }
+    .contunere2-text2{
+        width: 86%;
+        margin-left:10%;
+
+    }
+    .input2{
+        width: 80%;
+        font-size: 20px;
+        padding: 1%;
+        margin-top: 0%;
+        
+
+    }
+    .contunere3{
+        display: block;
+        width: 100%;
+        height: 590px;
+        margin-top: -2%;
+    }
+    .flex-items1 img{
+    
+        margin-top: 20px;
+        
+    }
+    .img-1{
+        width: 50%;
+    }
+    .f-items1{
+        display: block;
+    }
+    .f-items1 ul{
+        margin-top: 40px;
+    }
+
+    
+    
+
+    
+}
